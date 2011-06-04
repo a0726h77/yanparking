@@ -9,7 +9,16 @@ handlers:
 
 - url: /images
   static_dir: images
+  
+- url: /parking_update
+  script: parking_update.py
+  
+- url: /parking_add
+  script: parking_add.py
 
+- url: /parking_save
+  script: parking_save.py  
+  
 - url: /rest/.*
   script: api_v1.py
   
