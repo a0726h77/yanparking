@@ -1,0 +1,139 @@
+real	0m49.806s
+user	0m0.697s
+sys	0m0.121s
+
+更新 id:020 space:151 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxix4QQM
+更新 id:021 space:179 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiZ6QQM
+更新 id:039 space:144 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiy3gUM
+Datastore未建立 id 068 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=068
+Datastore未建立 id 093 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=093
+Datastore未建立 id 094 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=094
+Datastore未建立 id 097 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=097
+更新 id:102 space:79 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiB7gUM
+Datastore未建立 id 124 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=124
+Datastore未建立 id 138 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=138
+Datastore未建立 id 139 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=139
+Datastore未建立 id 140 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=140
+Datastore未建立 id 141 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=141
+Datastore未建立 id 162 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=162
+Datastore未建立 id 176 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=176
+更新 id:005 space:70 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxi5iwQM
+更新 id:036 space:110 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxi5hQYM
+Datastore未建立 id 049 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=049
+Datastore未建立 id 061 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=061
+Datastore未建立 id 076 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=076
+Datastore未建立 id 077 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=077
+Datastore未建立 id 086 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=086
+Datastore未建立 id 095 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=095
+Datastore未建立 id 096 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=096
+Datastore未建立 id 100 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=100
+Datastore未建立 id 131 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=131
+Datastore未建立 id 132 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=132
+Datastore未建立 id 133 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=133
+Datastore未建立 id 134 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=134
+更新 id:019 space:4 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjJ2QQM
+更新 id:030 space:27 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjBrwUM
+更新 id:035 space:27 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxia6QQM
+更新 id:042 space:53 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxia7AMM
+Datastore未建立 id 055 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=055
+Datastore未建立 id 066 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=066
+Datastore未建立 id 071 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=071
+更新 id:007 space:242 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxihkwQM
+更新 id:015 space:85 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxipugQM
+更新 id:018 space:601 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjh0QQM
+更新 id:025 space:105 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxi5iAUM
+Datastore未建立 id 044 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=044
+Datastore未建立 id 067 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=067
+Datastore未建立 id 069 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=069
+Datastore未建立 id 090 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=090
+Datastore未建立 id 091 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=091
+更新 id:033 space:26 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiC7gUM
+Datastore未建立 id 057 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=057
+Datastore未建立 id 058 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=058
+Datastore未建立 id 059 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=059
+Datastore未建立 id 060 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=060
+Datastore未建立 id 070 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=070
+Datastore未建立 id 073 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=073
+Datastore未建立 id 082 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=082
+Datastore未建立 id 083 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=083
+Datastore未建立 id 092 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=092
+Datastore未建立 id 099 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=099
+Datastore未建立 id 149 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=149
+Datastore未建立 id 152 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=152
+更新 id:016 space:39 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiRwgQM
+Datastore未建立 id 072 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=072
+Datastore未建立 id 158 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=158
+Datastore未建立 id 159 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=159
+Datastore未建立 id 160 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=160
+Datastore未建立 id 161 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=161
+更新 id:024 space:59 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjRgAUM
+更新 id:031 space:30 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjyogQM
+更新 id:037 space:126 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjShgMM
+Datastore未建立 id 056 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=056
+Datastore未建立 id 079 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=079
+Datastore未建立 id 080 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=080
+Datastore未建立 id 116 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=116
+Datastore未建立 id 117 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=117
+Datastore未建立 id 118 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=118
+Datastore未建立 id 153 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=153
+Datastore未建立 id 163 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=163
+Datastore未建立 id 017 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=017
+更新 id:023 space:269 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjp-AQM
+Datastore未建立 id 026 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=026
+更新 id:032 space:178 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjq-wMM
+Datastore未建立 id 040 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=040
+Datastore未建立 id 052 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=052
+Datastore未建立 id 053 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=053
+Datastore未建立 id 062 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=062
+Datastore未建立 id 064 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=064
+Datastore未建立 id 065 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=065
+Datastore未建立 id 075 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=075
+Datastore未建立 id 087 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=087
+更新 id:001 space:534 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxix5AMM
+更新 id:002 space:37 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjp-wMM
+更新 id:003 space:28 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiZ7AMM
+更新 id:004 space:85 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjRgwQM
+Datastore未建立 id 006 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=006
+更新 id:008 space:<font color="red">?????w??</font> http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiqvQMM
+Datastore未建立 id 008 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=008
+更新 id:009 space:<font color="red">?????w??</font> http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiJmwQM
+Datastore未建立 id 009 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=009
+更新 id:010 space:28 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjxogQM
+Datastore未建立 id 011 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=011
+更新 id:012 space:21 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjbrQMM
+更新 id:013 space:46 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiikwQM
+更新 id:014 space:92 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjBsgQM
+更新 id:022 space:<font color="red">?????w??</font> http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiB8QQM
+Datastore未建立 id 022 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=022
+更新 id:028 space:63 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjxnwUM
+Datastore未建立 id 041 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=041
+更新 id:045 space:710 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxib6QQM
+Datastore未建立 id 048 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=048
+Datastore未建立 id 088 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=088
+Datastore未建立 id 089 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=089
+Datastore未建立 id 164 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=164
+Datastore未建立 id 177 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=177
+更新 id:038 space:99 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxi6jgMM
+Datastore未建立 id 043 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=043
+更新 id:103 space:6 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjp9QUM
+更新 id:105 space:23 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjR_QUM
+Datastore未建立 id 135 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=135
+Datastore未建立 id 136 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=136
+Datastore未建立 id 137 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=137
+Datastore未建立 id 165 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=165
+更新 id:027 space:345 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiJmAUM
+更新 id:034 space:60 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxi6iwQM
+Datastore未建立 id 085 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=085
+更新 id:101 space:-- http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiZ5gUM
+更新 id:113 space:120 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxiJlQYM
+Datastore未建立 id 114 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=114
+Datastore未建立 id 115 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=115
+Datastore未建立 id 142 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=142
+更新 id:029 space:125 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjZpwUM
+Datastore未建立 id 051 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=051
+Datastore未建立 id 078 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=078
+Datastore未建立 id 081 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=081
+Datastore未建立 id 084 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=084
+Datastore未建立 id 098 的資料 http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=098
+更新 id:109 space:132 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxihjQYM
+更新 id:110 space:73 http://iteamjob.appspot.com/rest/parking/aghpdGVhbWpvYnIPCxIHUGFya2luZxjizgUM

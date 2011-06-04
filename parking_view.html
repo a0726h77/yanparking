@@ -1,0 +1,63 @@
+<html>
+<head>
+<script type="text/javascript" language="javascript">
+var XMLHttpReq;
+//建立XMLHttpRequest連線
+function createXMLHttpRequest() {
+	if(window.XMLHttpRequest) { //Mozilla 瀏覽器
+		XMLHttpReq = new XMLHttpRequest();
+	}
+	else if (window.ActiveXObject) { // IE瀏覽器
+		try {
+			XMLHttpReq = new ActiveXObject("Msxml2.XMLHTTP");
+		} catch (e) {
+			try {
+				XMLHttpReq = new ActiveXObject("Microsoft.XMLHTTP");
+			} catch (e) {}
+		}
+	}
+}
+//發送請求函數
+function sendRequest() {
+	createXMLHttpRequest();
+	var url = "/rest/parking/{{ k }}/space";
+	XMLHttpReq.open("GET", url, true);
+	XMLHttpReq.onreadystatechange = processResponse;//指定響應函数
+	XMLHttpReq.send(null); // 發送請求
+}
+// 處裡返回http訊息函数
+function processResponse() {
+	if (XMLHttpReq.readyState == 4) { // 判斷對方狀態
+		if (XMLHttpReq.status == 200) { // 訊息傳回成功，開始處裡訊息
+			DisplayHot();
+		        setTimeout("sendRequest()", 10000);
+		} else { //訊息傳回不正常;失敗
+			//window.alert("Request Error");
+			setTimeout("sendRequest()", 10000);
+		}
+	}
+}
+function DisplayHot()
+{
+	var theDate = XMLHttpReq.responseText ;//如果編碼出現問題,在Server端escape,然後在這使用unescape( responseText )
+	theDiv.innerHTML = '<b><font color="#FF0000">' + theDate + '個空位</font><b>';
+}
+</script>
+</head>
+
+<body onload ="sendRequest()">
+
+<div id="theDiv"></div>
+
+<b>{{ name }}</b><br/>
+
+<b>{{price}}</b><br/>
+
+<b>{{address}}</b><br/>
+
+<img src="/images/GoogleMapsMarkers/wait.png">
+
+</body>
+
+</html>
+

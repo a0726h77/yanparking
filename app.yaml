@@ -1,0 +1,32 @@
+application: yanparking
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /js
+  static_dir: js
+
+- url: /images
+  static_dir: images
+
+- url: /rest/.*
+  script: api_v1.py
+  
+- url: /parking_regex
+  script: parking_regex.py
+
+- url: /parking_add
+  script: parking_add.py
+
+- url: /parking_view
+  script: parking_view.py
+
+- url: /where
+  script: get_geo.py
+
+- url: /index2
+  script: geo_index.py
+
+- url: /.*
+  script: index.py

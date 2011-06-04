@@ -1,0 +1,46 @@
+<html>
+<head>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+var geocoder;
+var map;
+function initialize() {
+	geocoder = new google.maps.Geocoder();
+}
+
+function codeAddress() {
+	var addr = document.getElementById("address").value;
+	if (geocoder) {
+		geocoder.geocode( { 'address': addr}, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+//				map.setCenter(results[0].geometry.location);
+//				var marker = new google.maps.Marker({
+//map: map, 
+//position: results[0].geometry.location
+//});
+				document.getElementById("lat").value=results[0].geometry.location.lat();
+				document.getElementById("lng").value=results[0].geometry.location.lng();
+				//document.getElementById("lng").innerHTML=results[0].geometry.location.lng();
+				} else {
+				alert("Geocode was not successful for the following reason: " + status);
+				}
+				});
+}
+}
+</script>
+</head>
+<body onload="initialize()">
+Hi, {{ user }}
+<form action="/parking_save" method="post">
+    total : <input type="text" id="total" name="total"><br/>
+	space : <input type="text" id="space" name="space"><br/>
+	price : <input type="text" id="price" name="price"><br/>
+	detail : <input type="text" id="detail" name="detail"><br/>
+	name : <input type="text" name="name"><br/>
+	address : <input type="text" id="address" name="address"><input type="button" value="Geocode" onclick="codeAddress()"><br/>
+	lat : <input type="text" id="lat" name="lat"><br/>
+	lng : <input type="text" id="lng" name="lng"><br/>
+	<input type="submit" >
+</form>
+</body>
+</html>

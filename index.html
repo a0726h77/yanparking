@@ -1,0 +1,130 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>GAE Parking 克隆</title>
+<link href="http://code.google.com/apis/maps/documentation/javascript/examples/standard.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript"
+src="http://maps.google.com/maps/api/js?sensor=false&language=zh_TW"></script> <!--載入Google map API V3--> 
+<script  type="text/javascript">
+ function init() {
+    if (window.XMLHttpRequest) { // Mozilla, Safari, ...
+    http_request = new XMLHttpRequest();
+}  else if (window.ActiveXObject) { // IE
+    http_request = new ActiveXObject("Microsoft.XMLHTTP");
+}
+    geocoder = new google.maps.Geocoder();
+
+    map = new google.maps.Map(document.getElementById("map_canvas"), {
+      zoom: 16,
+      center: new google.maps.LatLng(25.036004, 121.56720799999994),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+	});
+
+
+	var infowindow = new google.maps.InfoWindow();
+
+	function addMarker(latlng, title, content,content2,content3, key) {
+	
+var marker = new google.maps.Marker({
+position: latlng,
+map: map,
+title: title,
+icon: 'images/GoogleMapsMarkers/parking_Marker.png',
+});
+
+google.maps.event.addListener(marker, 'click', function() {
+        infowindow.setContent('<iframe src="/parking_view?k=' + key + '" frameborder="0" scrolling="no"></iframe>');
+		//update使用 infowindow.setContent('<b><font color="#FF0000">' + title +'</font>' + "個空位"+" " + content + '</b><br/>' + content2 + '<br/>'+ content3 +'<a href="/parking_update?k=' + key + '">edit</a>');
+		    infowindow.setPosition(latlng);
+		      infowindow.open(map, marker);
+		});
+}
+{% for p in parkings %}
+		addMarker(new google.maps.LatLng({{ p.geopt }}),'{{ p.space }}','{{ p.price }}', '{{ p.name }}', '{{ p.address }}', '{{ p.key }}');
+{% endfor %}
+}
+function showAddress(addr) {
+	if (geocoder) {
+		geocoder.geocode( { 'address': addr}, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+				map.setCenter(results[0].geometry.location);
+				var marker = new google.maps.Marker({
+map: map, 
+position: results[0].geometry.location
+});
+				} else {
+				alert("Geocode was not successful for the following reason: " + status);
+				}
+				});
+}
+}
+ 
+function clearMap(){
+      //alert("OO");
+	  map.clearOverlays();
+ 
+	    polyPoints = [];
+	      document.getElementById("coords").value =  "&lt;-- Click on the map to digitize!";
+} 
+
+function drawCoordinates(){
+   
+  //Re-create Polyline/Polygon
+
+  if (polygonMode) {
+    polyShape = new google.maps.Polygon(polyPoints,lineColor,lineWeight,opacity,fillColor,opacity);
+  } else {
+    polyShape = new google.maps.Polyline(polyPoints,lineColor,lineWeight,opacity);
+  }
+  
+  map.clearOverlays();
+
+  // Grab last point of polyPoints to add marker
+  marker = new google.maps.Marker(polyPoints[polyPoints.length -1]);
+
+  map.addOverlay(marker);
+  map.addOverlay(polyShape);
+
+  logCoordinates();
+}
+ 
+function deleteLastPoint(){
+      	  map.removeOverlay(polyShape);
+	    // pop last element of polypoint array
+	    polyPoints.pop();
+	      drawCoordinates();
+} 
+</script> 
+</head> 
+
+<body onload="init()">
+<center>
+<!--
+<form action="#" onsubmit="showAddress(this.address.value); return false"> 
+	<p>
+	<input type="text" size="40" name="address" value="" /> 
+	<input type="submit" value="GO" /> 
+	<input type="button" value="Clear" onclick="clearMap();" />
+	</p> 
+</form> 
+-->
+<table>
+    <tr><td align='right'><a href='/where'><b>Go!</b></a> <a href='/parking_add'>Add</a></td></tr>
+    <tr><td colspan="2">
+<script type="text/javascript">
+var winWidth = window.document.body.clientWidth * 0.95;
+var winHeight = window.document.body.clientHeight * 0.8;
+document.write('<div id=\'map_canvas\' style=\'width: ' + winWidth + 'px; height: '+ winHeight + 'px;\'></div>');
+</script>
+</table>
+<table>
+<tbody>
+{% for p in three_parkings %}
+<tr><td><b><a href="#" onclick="alert('{{ p.address }}\nSorry, 尚未完成在地圖上開啟marker info, 偶要睡覺啦')">{{ p.name }}</a></b></td><td><b>=> {{ p.space }}</b></td><td><b>, {{ p.price }}</b></td></tr>
+{% endfor %}
+</tbody>
+</table>
+</center>
+</body>
+
+</html>

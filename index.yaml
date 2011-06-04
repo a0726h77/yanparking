@@ -1,0 +1,13 @@
+indexes:
+- kind: Parking
+  properties:
+  - name: total
+  - name: space
+  - name: price
+  - name: detail
+  - name: address
+  - name: name
+  - name: geopt
+  - name: datetime
+  - name: wait
+
