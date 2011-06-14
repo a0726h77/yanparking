@@ -23,7 +23,7 @@ handlers:
   script: api_v1.py
   
 - url: /parking_regex
-  script: parking_regex.py
+  script: parking_group_regex.py
 
 - url: /parking_add
   script: parking_add.py

@@ -4,7 +4,7 @@ from lxml import etree
 from squawk.query import *
 from squawk.parsers.csvparser import *
 
-parking_datastore_file = 'parking_20110603.xml'
+parking_datastore_file = 'parking_20110605.xml'
 # 從 http://iteamjob.appspot.com/rest/parking 保存
 
 tpis_parking_file = 'tpis_parking.csv'
@@ -24,11 +24,13 @@ for i in range(1, 181):
 
     source = CSVParser(tpis_parking_file)
     query = Query("SELECT name FROM file WHERE id='%s'" % i)
-    name = [ row['name'] for row in query(source) ][0]
+    name = [ row['name'] for row in query(source) ]
 
     if name:
+        name = name[0]
         for child in root:
-            for son in child.iter():
+            #for son in child.iter():
+            for son in child:
                 if son.tag == 'name':
                     if son.text == name.decode('utf-8') :
                         e = (son.getparent())

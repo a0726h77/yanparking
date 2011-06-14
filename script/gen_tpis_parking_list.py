@@ -23,5 +23,8 @@ for i in range(1, 181):
                 name = m.group(1)
                 f.write('%s,%s\n' % (i, name))
     except urllib2.URLError, e:
-        print '%s,' % i
+        f.write('%s,\n' % i)
+        print "http://www.tpis.nat.gov.tw/Internet/showinformation.asp?id=%s" % i
         #handleError(e)
+
+    time.sleep(1)
